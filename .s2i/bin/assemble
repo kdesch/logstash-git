@@ -1,0 +1,14 @@
+#!/bin/bash -e
+#
+# S2I assemble script for the 'logstash' image.
+# The 'assemble' script builds your application source so that it is ready to run.
+#
+# For more information refer to the documentation:
+#	https://github.com/openshift/source-to-image/blob/master/docs/builder_image.md
+#
+
+echo "---> Installing application source..."
+cp -Rf /tmp/example/. ./
+
+echo "---> Building application from source..."
+# TODO: Add build steps for your application, eg npm install, bundle install
