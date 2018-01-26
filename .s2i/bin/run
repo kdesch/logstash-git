@@ -7,4 +7,4 @@
 #	https://github.com/openshift/source-to-image/blob/master/docs/builder_image.md
 #
 
-exec /usr/share/logstash/bin/logstash -f ./logstash.config
+exec /usr/share/logstash/bin/logstash -f ./logstash.conf
