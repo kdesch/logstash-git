@@ -1,0 +1,5 @@
+
+#!/bin/bash
+pwd
+find / -name logstash.yml
+find / -name logstash
