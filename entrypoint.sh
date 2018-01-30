@@ -1,2 +1,2 @@
 !#/bin/bash
-bin/logstash -f ./logstash.conf
+/usr/share/logstash/bin/logstash -f ./logstash.conf
